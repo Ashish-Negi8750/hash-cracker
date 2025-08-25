@@ -20,7 +20,7 @@ def log_result(password, hash_value, algo):
     with open("cracked_log.txt", "a", encoding="utf-8") as f:
         f.write(f"{datetime.now()} | {algo.upper()} | {hash_value} → {password}\n")
 
-# --- Mutations ---
+# --- MutationHashs ---
 def mutate(word):
     return [
         word,
